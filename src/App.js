@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -119,6 +118,30 @@ class App extends Component {
                 </div>
                 <footer><p><a href="#top">[Top]</a></p></footer>
               </article>
+              <article id="text__inline">
+                <header><h1>Inline elements</h1></header>
+                <div>
+                  <p><a href="#!">This is a text link</a>.</p>
+                  <p><strong>Strong is used to indicate strong importance.</strong></p>
+                  <p><em>This text has added emphasis.</em></p>
+                  <p>The <b>b element</b> is stylistically different text from normal text, without any special importance.</p>
+                  <p>The <i>i element</i> is text that is offset from the normal text.</p>
+                  <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</p>
+                  <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
+                  <p><s>This text has a strikethrough</s>.</p>
+                  <p>Superscript<sup>®</sup>.</p>
+                  <p>Subscript for things like H<sub>2</sub>O.</p>
+                  <p><small>This small text is small for for fine print, etc.</small></p>
+                  <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
+                  <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
+                  <p><cite>This is a citation.</cite></p>
+                  <p>The <dfn>dfn element</dfn> indicates a definition.</p>
+                  <p>The <mark>mark element</mark> indicates a highlight.</p>
+                  <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
+                  <p>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
+                </div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
               <article id="text__tables">
                 <header><h1>Tabular data</h1></header>
                 <table>
@@ -174,6 +197,13 @@ class App extends Component {
                 </table>
                 <footer><p><a href="#top">[Top]</a></p></footer>
               </article>
+              <article id="text__comments">
+                <header><h1>HTML Comments</h1></header>
+                <div>
+                  <p>There is comment here: {'<!--This comment should not be displayed-->'}</p>
+                </div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
               <article id="text__code">
                 <header><h1>Code</h1></header>
                 <div>
@@ -189,90 +219,6 @@ class App extends Component {
       ` a b c d e f g h i j k l m n o
       p q r s t u v w x y z {'{ | }'} ~ </pre>
                 </div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="text__inline">
-                <header><h1>Inline elements</h1></header>
-                <div>
-                  <p><a href="#!">This is a text link</a>.</p>
-                  <p><strong>Strong is used to indicate strong importance.</strong></p>
-                  <p><em>This text has added emphasis.</em></p>
-                  <p>The <b>b element</b> is stylistically different text from normal text, without any special importance.</p>
-                  <p>The <i>i element</i> is text that is offset from the normal text.</p>
-                  <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</p>
-                  <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
-                  <p><s>This text has a strikethrough</s>.</p>
-                  <p>Superscript<sup>®</sup>.</p>
-                  <p>Subscript for things like H<sub>2</sub>O.</p>
-                  <p><small>This small text is small for for fine print, etc.</small></p>
-                  <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
-                  <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
-                  <p><cite>This is a citation.</cite></p>
-                  <p>The <dfn>dfn element</dfn> indicates a definition.</p>
-                  <p>The <mark>mark element</mark> indicates a highlight.</p>
-                  <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
-                  <p>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
-                </div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="text__comments">
-                <header><h1>HTML Comments</h1></header>
-                <div>
-                  <p>There is comment here: {'<!--This comment should not be displayed-->'}</p>
-                </div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-            </section>
-            <section id="embedded">
-              <header><h1>Embedded content</h1></header>
-              <article id="embedded__images">
-                <header><h2>Images</h2></header>
-                <div>
-                  <h3>No <code>&lt;figure&gt;</code> element</h3>
-                  <p><img src="http://placekitten.com/480/480" alt="Image alt text"/></p>
-                  <h3>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h3>
-                  <figure><img src="http://placekitten.com/420/420" alt="Image alt text"/></figure>
-                  <h3>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h3>
-                  <figure>
-                    <img src="http://placekitten.com/420/420" alt="Image alt text"/>
-                    <figcaption>Here is a caption for this image.</figcaption>
-                  </figure>
-                </div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="embedded__audio">
-                <header><h2>Audio</h2></header>
-                <div><audio controls="">audio</audio></div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="embedded__video">
-                <header><h2>Video</h2></header>
-                <div><video controls="">video</video></div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="embedded__canvas">
-                <header><h2>Canvas</h2></header>
-                <div><canvas>canvas</canvas></div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="embedded__meter">
-                <header><h2>Meter</h2></header>
-                <div><meter value="2" min="0" max="10">2 out of 10</meter></div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="embedded__progress">
-                <header><h2>Progress</h2></header>
-                <div><progress>progress</progress></div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="embedded__svg">
-                <header><h2>Inline SVG</h2></header>
-                <div><svg width="100px" height="100px"><circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle></svg></div>
-                <footer><p><a href="#top">[Top]</a></p></footer>
-              </article>
-              <article id="embedded__iframe">
-                <header><h2>IFrame</h2></header>
-                <div><iframe src="index.html" height="300"></iframe></div>
                 <footer><p><a href="#top">[Top]</a></p></footer>
               </article>
             </section>
@@ -412,6 +358,59 @@ class App extends Component {
                 </fieldset>
                 <p><a href="#top">[Top]</a></p>
               </form>
+            </section>
+            <section id="embedded">
+              <header><h1>Embedded content</h1></header>
+              <article id="embedded__images">
+                <header><h2>Images</h2></header>
+                <div>
+                  <h3>No <code>&lt;figure&gt;</code> element</h3>
+                  <p><img src="http://placekitten.com/480/480" alt="Image alt text"/></p>
+                  <h3>Wrapped in a <code>&lt;figure&gt;</code> element, no <code>&lt;figcaption&gt;</code></h3>
+                  <figure><img src="http://placekitten.com/420/420" alt="Image alt text"/></figure>
+                  <h3>Wrapped in a <code>&lt;figure&gt;</code> element, with a <code>&lt;figcaption&gt;</code></h3>
+                  <figure>
+                    <img src="http://placekitten.com/420/420" alt="Image alt text"/>
+                    <figcaption>Here is a caption for this image.</figcaption>
+                  </figure>
+                </div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
+              <article id="embedded__audio">
+                <header><h2>Audio</h2></header>
+                <div><audio controls="">audio</audio></div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
+              <article id="embedded__video">
+                <header><h2>Video</h2></header>
+                <div><video controls="">video</video></div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
+              <article id="embedded__canvas">
+                <header><h2>Canvas</h2></header>
+                <div><canvas>canvas</canvas></div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
+              <article id="embedded__meter">
+                <header><h2>Meter</h2></header>
+                <div><meter value="2" min="0" max="10">2 out of 10</meter></div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
+              <article id="embedded__progress">
+                <header><h2>Progress</h2></header>
+                <div><progress>progress</progress></div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
+              <article id="embedded__svg">
+                <header><h2>Inline SVG</h2></header>
+                <div><svg width="100px" height="100px"><circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle></svg></div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
+              <article id="embedded__iframe">
+                <header><h2>IFrame</h2></header>
+                <div><iframe src="index.html" height="300"></iframe></div>
+                <footer><p><a href="#top">[Top]</a></p></footer>
+              </article>
             </section>
           </main>
           <footer role="contentinfo">

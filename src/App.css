@@ -1,28 +1,288 @@
-.App {
-  padding: 50px;
+header {
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+nav {
+
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+main {
+
 }
 
-.App-title {
-  font-size: 1.5em;
+footer {
+
 }
 
-.App-intro {
-  font-size: large;
+section {
+
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+article {
+
 }
+
+article header {
+
+}
+
+article footer {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ol li {
+  
+}
+
+ol li a {
+
+}
+
+ul {
+
+}
+
+ul li {
+
+}
+
+ul li a {
+
+}
+
+hr {
+
+}
+
+a {
+
+}
+
+strong {
+
+}
+
+em {
+
+}
+
+b {
+  
+}
+
+i {
+
+}
+
+u {
+
+}
+
+del {
+
+}
+
+s {
+
+}
+
+sup {
+
+}
+
+sub {
+
+}
+
+small {
+
+}
+
+abbr {
+
+}
+
+q {
+
+}
+
+cite {
+
+}
+
+dfn {
+
+}
+
+mark {
+
+}
+
+var {
+
+}
+
+time {
+
+}
+
+table {
+
+}
+
+tbody {
+
+}
+
+thead {
+
+}
+
+tfoot {
+
+}
+
+caption {
+
+}
+
+th {
+
+}
+
+tr {
+
+}
+
+td {
+
+}
+
+kbd {
+
+}
+
+code {
+
+}
+
+samp {
+
+}
+
+pre {
+
+}
+
+form {
+
+}
+
+fieldset {
+
+}
+
+legend {
+
+}
+
+label {
+
+}
+
+input {
+
+}
+
+select {
+
+}
+
+optgroup {
+
+}
+
+option {
+
+}
+
+textarea {
+
+}
+
+button {
+  
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+audio {
+
+}
+
+video {
+
+}
+
+canvas {
+
+}
+
+meter {
+
+}
+
+progress {
+  
+}
+
+svg {
+
+}
+
+iframe {
+
+}
+
